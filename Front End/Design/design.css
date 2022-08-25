@@ -1,0 +1,134 @@
+/* CSS Reset: Resets the website across all browsers for a smoother experience */
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* Main Code Starts From Here */
+
+
+
+html,
+body {
+    height: 100%;
+    color: #F5F5F5;
+    font-family: Raleway, sans-serif;
+    background-color: #F5F5F5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#B76D68, #EBB478);
+    border-radius: 6px;
+}
+
+/* Background Image */
+.cover-container {
+    background-image: url("https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar,
+#navItems a,
+.navbar-brand,
+.navbar-toggler-icon {
+    font-size: 1.2em;
+    color: #E1DEE9;
+    font-weight: 100;
+    font-family: 'Poppins';
+    background-color: #121420;
+    flex-direction: row;
+}
+
+.navbar #navItems a:hover {
+    color: #59CD90;
+}
+
+/* For Reversing the way elements (Home, About Us, Designs) appears on the NavBar */
+#navbarNav {
+    flex-direction: row-reverse;
+    padding-right: 1.5em;
+}
