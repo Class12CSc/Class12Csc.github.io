@@ -118,7 +118,7 @@ html {
     color: #E1DEE9;
     font-weight: 100;
     font-family: 'Poppins';
-    background-color: #121420;
+    background-color: transparent;
     flex-direction: row;
 }
 
@@ -181,4 +181,77 @@ html {
 
 #section2 img {
     padding: 3em 2.4em;
+}
+
+.navbar.scrolled {
+    background-color: #1D1E2C;
+    transition: background 500ms;
+}
+
+footer {
+    font-size: 2.1em;
+    font-family: 'Lato', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #59CD90;
+    padding: 0px 0.9em;
+}
+
+footer li {
+    padding-top: 0.3em;
+}
+
+#socials {
+    padding: 0px 0.6em;
+    padding-top: 0.45em;
+    font-size: 1.11em;
+    color: #E1DEE9;
+}
+
+.oladj {
+    padding-left: 0.5rem;
+    font-size: 0.75em;
+}
+
+.webname {
+    padding-left: 0.81em;
+    font-size: 1.11em;
+    padding-top: 0.75em;
+}
+
+#about {
+    text-align: start;
+    font-size: 0.6em;
+}
+
+#about h3 {
+    color: #F5F5F5;
+    padding-left: 0.9em;
+    font-size: 1.8em;
+}
+
+#button-class {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.newsh3 {
+    font-size: 1.11em;
+    padding-right: 1.5em;
+}
+
+#newsletter button {
+    justify-self: flex-start;
+    width: 5.1em;
+    margin-left: 0.6em;
+    margin-bottom: 0.3em;
+    height: 2.4em;
+    margin-top: 0em;
+}
+
+.copyright {
+    font-size: 0.45em;
+    padding-top: 3em;
 }
