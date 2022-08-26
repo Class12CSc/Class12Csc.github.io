@@ -245,16 +245,16 @@ footer li {
 }
 
 #socials {
-  padding: 0px 3em;
+  padding-left: 3.3em;
   padding-top: 0.45em;
   font-size: 1.11em;
   color: #E1DEE9;
 }
 
 .oladj {
-  padding-left: 4.5em;
+  padding-right: 2.1em;
   font-size: 0.75em;
-  align-items: center;
+  text-align: center;
 }
 
 .webname {
