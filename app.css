@@ -199,6 +199,10 @@ footer a {
     padding: 0px 0.9em;
 }
 
+footer a:hover {
+    color: #E1DEE9;
+}
+
 footer li {
     padding-top: 0.3em;
 }
