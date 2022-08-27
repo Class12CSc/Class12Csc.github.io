@@ -132,6 +132,12 @@ html {
     padding-right: 1.5em;
 }
 
+.navbar.scrolled {
+    background-color: #1D1E2C;
+    transition: background 500ms;
+}
+
+/* Button Styles */
 .btn-secondary {
     background-color: #12152B;
 }
@@ -143,6 +149,7 @@ html {
     border: 1px solid #F5F5F5;
 }
 
+/* Box on the images */
 #main-cover {
     background: transparent;
     padding: 3em 3em;
@@ -183,10 +190,7 @@ html {
     padding: 3em 2.4em;
 }
 
-.navbar.scrolled {
-    background-color: #1D1E2C;
-    transition: background 500ms;
-}
+
 
 footer {
     font-size: 2.1em;
